@@ -9,6 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
+      @params = params
 =begin
       @new_team = Pirate.new(params["pirate"]["name"], params["pirate"]["weight"], params["pirate"]["height"])
 
