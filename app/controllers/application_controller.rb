@@ -21,4 +21,5 @@ class App < Sinatra::Base
       #{}"Team Motto:" + params["team"].to_s
     end
 =end
+  erb :team
 end
