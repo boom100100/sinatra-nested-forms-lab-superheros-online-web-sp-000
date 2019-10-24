@@ -19,7 +19,8 @@ class App < Sinatra::Base
       @ships = Ship.all
       #params["team"].to_s
       #{}"Team Motto:" + params["team"].to_s
-    end
 =end
-  erb :team
+      erb :team
+    end
+
 end
