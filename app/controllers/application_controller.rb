@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
-      @heroes = params["team"]["hero"]
+      @heroes = params["team"]["hero"][]
       #params["team"].to_s
       #{}"Team Motto:" + params["team"].to_s
     end
